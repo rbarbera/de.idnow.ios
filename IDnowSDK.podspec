@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "IDnowSDK"
-  s.version      = "2.0.0"
+  s.version      = "1.6.1"
   s.summary      = "IDnowSDK for iOS"
   s.description  = "With IDnow, personal identification checks and personal signatures have finally arrived in the digital world. We offer companies and institutions innovative platform-specific solutions that guarantee the safe and legally sound verification of customers, clients and contractual partners."
   s.homepage     = "http://www.idnow.eu/developers"
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.source       = { 
     :git => "https://github.com/rbarbera/de.idnow.ios.git", 
-    :tag => "de.idnow.ios-2.0.0-RC.3" 
+    :tag => "de.idnow.ios-1.6.1" 
   }
   s.ios.source_files        = 'idnow-sdk/include/*.h'
   s.ios.public_header_files = 'idnow-sdk/include/*.h'
