@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "IDnowSDK for iOS"
   s.description  = "With IDnow, personal identification checks and personal signatures have finally arrived in the digital world. We offer companies and institutions innovative platform-specific solutions that guarantee the safe and legally sound verification of customers, clients and contractual partners."
   s.homepage     = "http://www.idnow.eu/developers"
-  s.license      = 'Comercial'
+  s.license      = { :type => 'Comercial', :file => 'LICENSE' }
 
   s.authors       =  {'Armin Bauer' => 'mail@arminbauer.com', 'Matthias Redlin' => '@macmacen' }
   
